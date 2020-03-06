@@ -2,10 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>SFSafariExtensionBundleIdentifiersToUninstall</key>
-	<array>
-		<string>com.colliderli.openiniina</string>
-	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
@@ -42,16 +38,16 @@
 		<key>SFSafariContextMenu</key>
 		<array>
 			<dict>
-				<key>Text</key>
-				<string>Open Current Page in IINA</string>
 				<key>Command</key>
 				<string>OpenInIINA</string>
+				<key>Text</key>
+				<string>Open Current Page in IINA</string>
 			</dict>
 			<dict>
-				<key>Text</key>
-				<string>Open Link in IINA</string>
 				<key>Command</key>
 				<string>OpenLinkInIINA</string>
+				<key>Text</key>
+				<string>Open Link in IINA</string>
 			</dict>
 		</array>
 		<key>SFSafariToolbarItem</key>
@@ -75,5 +71,9 @@
 	<string>Copyright © 2018 lhc. All rights reserved.</string>
 	<key>NSHumanReadableDescription</key>
 	<string>Open videos in IINA.</string>
+	<key>SFSafariExtensionBundleIdentifiersToUninstall</key>
+	<array>
+		<string>com.colliderli.openiniina</string>
+	</array>
 </dict>
 </plist>
